@@ -7,8 +7,7 @@
       "damage": 65,
       "criticalChance": 10,
       "manufacturer": "Archangel",
-      "description": "A high-powered revolver with excellent accuracy and stopping power.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_46da3ef9bf14265c31f93974edebce5c01c4e611.1920x1080.jpg"
+      "description": "A high-powered revolver with excellent accuracy and stopping power."
     },
     {
       "id": 2,
@@ -17,8 +16,7 @@
       "damage": 120,
       "criticalChance": 15,
       "manufacturer": "Kang Tao",
-      "description": "A powerful and accurate precision rifle with a high-tech scope.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_62e1dcab0edf985afb7d24b8563d962dff691079.1920x1080.jpg"
+      "description": "A powerful and accurate precision rifle with a high-tech scope."
     },
     {
       "id": 3,
@@ -27,8 +25,7 @@
       "damage": 80,
       "criticalChance": 8,
       "manufacturer": "Militech",
-      "description": "A rugged and reliable shotgun with a wide spread pattern.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_17ea413c68b51a419fb84c0ae8b44c16894f6118.1920x1080.jpg"
+      "description": "A rugged and reliable shotgun with a wide spread pattern."
     },
     {
       "id": 4,
@@ -37,8 +34,7 @@
       "damage": 90,
       "criticalChance": 12,
       "manufacturer": "Malorian Arms",
-      "description": "A versatile assault rifle with a high rate of fire and good handling.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_a175abc394741f27439bdf688c7589dfd58a22ea.1920x1080.jpg"
+      "description": "A versatile assault rifle with a high rate of fire and good handling."
     },
     {
       "id": 5,
@@ -47,8 +43,7 @@
       "damage": 110,
       "criticalChance": 20,
       "manufacturer": "Arasaka",
-      "description": "A high-tech smart rifle with advanced targeting and tracking capabilities.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_3205e2b5cd61d35762d4d81439e9ac423740b1ba.1920x1080.jpg"
+      "description": "A high-tech smart rifle with advanced targeting and tracking capabilities."
     },
     {
       "id": 6,
@@ -57,8 +52,7 @@
       "damage": 200,
       "criticalChance": 5,
       "manufacturer": "Militech",
-      "description": "A powerful and destructive missile launcher for taking down heavily armored targets.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_74e93d6500a42d7d4ebede9c21e4e11703d2d493.1920x1080.jpg"
+      "description": "A powerful and destructive missile launcher for taking down heavily armored targets."
     },
     {
       "id": 7,
@@ -67,8 +61,7 @@
       "damage": 85,
       "criticalChance": 18,
       "manufacturer": "Arasaka",
-      "description": "A finely crafted katana with a razor-sharp edge and balanced weight.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_96df7457d6f48e6240df679d1b31cb47e2c20c14.1920x1080.jpg"
+      "description": "A finely crafted katana with a razor-sharp edge and balanced weight."
     },
     {
       "id": 8,
@@ -77,8 +70,7 @@
       "damage": 75,
       "criticalChance": 12,
       "manufacturer": "Kang Tao",
-      "description": "A high-tech melee weapon with a glowing energy blade.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_3a0610c6631158f27d916bdf940a57324df0b4a4.1920x1080.jpg"
+      "description": "A high-tech melee weapon with a glowing energy blade."
     },
     {
       "id": 9,
@@ -87,8 +79,7 @@
       "damage": 95,
       "criticalChance": 10,
       "manufacturer": "Militech",
-      "description": "A reliable and hard-hitting light machine gun with a large ammo capacity.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_536e5b659d29c677aac9a798a3e28538d98b10e3.1920x1080.jpg"
+      "description": "A reliable and hard-hitting light machine gun with a large ammo capacity."
     },
     {
       "id": 10,
@@ -97,8 +88,7 @@
       "damage": 150,
       "criticalChance": 25,
       "manufacturer": "Arasaka",
-      "description": "A high-powered sniper rifle with exceptional range and accuracy.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_0dcb76494d48c41f12765e064b8a17a87f7c7e82.1920x1080.jpg"
+      "description": "A high-powered sniper rifle with exceptional range and accuracy."
     },
     {
       "id": 11,
@@ -107,8 +97,7 @@
       "damage": 70,
       "criticalChance": 15,
       "manufacturer": "Neon Samurai",
-      "description": "A powerful and stylish revolver with intricate engravings.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_8579a8bc1337f85b9fa6fd4eaa2fa7b96f2dd484.1920x1080.jpg"
+      "description": "A powerful and stylish revolver with intricate engravings."
     },
     {
       "id": 12,
@@ -117,8 +106,7 @@
       "damage": 90,
       "criticalChance": 20,
       "manufacturer": "Arasaka",
-      "description": "An ancient katana with a legendary history and unmatched sharpness.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_d01ce87af42155bd7a56ce8f9522d86aaa0ad080.1920x1080.jpg"
+      "description": "An ancient katana with a legendary history and unmatched sharpness."
     },
     {
       "id": 13,
@@ -127,8 +115,7 @@
       "damage": 95,
       "criticalChance": 10,
       "manufacturer": "Militech",
-      "description": "A powerful and rugged shotgun with a high rate of fire.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_34f510d75edbcec0e5d6996573ae80555965ac23.1920x1080.jpg"
+      "description": "A powerful and rugged shotgun with a high rate of fire."
     },
     {
       "id": 14,
@@ -137,8 +124,7 @@
       "damage": 80,
       "criticalChance": 18,
       "manufacturer": "Archangel",
-      "description": "A high-caliber revolver with exceptional stopping power and accuracy.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_1234b7d7e0763c56bcd9563bf57071cdb2c98f4b.1920x1080.jpg"
+      "description": "A high-caliber revolver with exceptional stopping power and accuracy."
     },
     {
       "id": 15,
@@ -147,8 +133,7 @@
       "damage": 115,
       "criticalChance": 20,
       "manufacturer": "Nokk",
-      "description": "A highly accurate and deadly precision rifle used by elite snipers.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_d537a65ed135df11eaab28cd00736bfb69da4f20.1920x1080.jpg"
+      "description": "A highly accurate and deadly precision rifle used by elite snipers."
     },
     {
       "id": 16,
@@ -157,8 +142,7 @@
       "damage": 100,
       "criticalChance": 15,
       "manufacturer": "Militech",
-      "description": "A versatile and reliable assault rifle with advanced targeting systems.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_2041a1f9b31b2edfa6d17757bee2eab05c3439e6.1920x1080.jpg"
+      "description": "A versatile and reliable assault rifle with advanced targeting systems."
     },
     {
       "id": 17,
@@ -167,8 +151,7 @@
       "damage": 105,
       "criticalChance": 22,
       "manufacturer": "Arasaka",
-      "description": "A cutting-edge smart rifle with advanced AI targeting and hacking capabilities.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_646f2c90b619698ade99107a12f84a1a018c2ca7.1920x1080.jpg"
+      "description": "A cutting-edge smart rifle with advanced AI targeting and hacking capabilities."
     },
     {
       "id": 18,
@@ -177,8 +160,7 @@
       "damage": 80,
       "criticalChance": 16,
       "manufacturer": "Arasaka",
-      "description": "A sleek and lightweight katana favored by cyborg samurai.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_d9e9d8e3cc20f8fe65167346c053053524712862.1920x1080.jpg"
+      "description": "A sleek and lightweight katana favored by cyborg samurai."
     },
     {
       "id": 19,
@@ -187,8 +169,7 @@
       "damage": 75,
       "criticalChance": 12,
       "manufacturer": "Militech",
-      "description": "A reliable and powerful revolver used by elite Militech operatives.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_8f55eb7dd0ef7bce9c2ce5f224b51f74d75eab90.1920x1080.jpg"
+      "description": "A reliable and powerful revolver used by elite Militech operatives."
     },
     {
       "id": 20,
@@ -197,8 +178,7 @@
       "damage": 125,
       "criticalChance": 18,
       "manufacturer": "Kang Tao",
-      "description": "A high-tech precision rifle with advanced ballistic calculations and a devastating punch.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_752010c13e62f0e6633ba2bea207d394617ea15d.1920x1080.jpg"
+      "description": "A high-tech precision rifle with advanced ballistic calculations and a devastating punch."
     },
     {
       "id": 21,
@@ -207,78 +187,7 @@
       "damage": 85,
       "criticalChance": 10,
       "manufacturer": "Militech",
-      "description": "A heavy-duty shotgun designed for close-quarters combat and breaching operations.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_ca2d47283b74ca76ab99ff8659d6f8ab8591dd61.1920x1080.jpg"
-    },
-    {
-      "id": 22,
-      "name": "Grad",
-      "type": "Rocket Launcher",
-      "damage": 250,
-      "criticalChance": 5,
-      "manufacturer": "Militech",
-      "description": "A devastating rocket launcher capable of leveling entire buildings.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_ec861da036d5cd9e37aa5ff0d6b4a2eb44cc457c.1920x1080.jpg"
-    },
-    {
-      "id": 23,
-      "name": "Masamune",
-      "type": "Katana",
-      "damage": 95,
-      "criticalChance": 22,
-      "manufacturer": "Arasaka",
-      "description": "A legendary katana forged by a master swordsmith, with an unbreakable blade.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_450cc77fd62912245cc56a4979614ce90c4e9c7d.1920x1080.jpg"
-    },
-    {
-      "id": 24,
-      "name": "Kongou",
-      "type": "Melee",
-      "damage": 90,
-      "criticalChance": 15,
-      "manufacturer": "Arasaka",
-      "description": "A high-tech melee weapon with a reinforced titanium alloy core.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_b58697195d2bdbcec0c7d87099070a4560661643.1920x1080.jpg"
-    },
-    {
-      "id": 25,
-      "name": "Kang Tao A-20",
-      "type": "Assault Rifle",
-      "damage": 105,
-      "criticalChance": 18,
-      "manufacturer": "Kang Tao",
-      "description": "A highly advanced and versatile assault rifle with a modular design.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_d66d6f7a18dd294b7c27678306b92d18f8fdbf14.1920x1080.jpg"
-    },
-    {
-      "id": 26,
-      "name": "Chaos",
-      "type": "Light Machine Gun",
-      "damage": 110,
-      "criticalChance": 12,
-      "manufacturer": "Militech",
-      "description": "A heavy-duty light machine gun with a high rate of fire and large ammo capacity.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_0e0f4cf5ffdf382d509b9029462238c0c8a6d20d.1920x1080.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Tsunami",
-      "type": "Melee",
-      "damage": 85,
-      "criticalChance": 18,
-      "manufacturer": "Arasaka",
-      "description": "A high-tech melee weapon with a retractable energy blade and advanced targeting systems.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_9be5ee6b7f612c28636d2d5a57aec3de48d7841e.1920x1080.jpg"
-    },
-    {
-      "id": 28,
-      "name": "Bozoku",
-      "type": "Smart Rifle",
-      "damage": 115,
-      "criticalChance": 25,
-      "manufacturer": "Kang Tao",
-      "description": "A cutting-edge smart rifle with advanced AI targeting and hacking capabilities.",
-      "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_48dfde2fa296cf8ef06f436aa0b97ac3be5158e3.1920x1080.jpg"
-    }   
+      "description": "A heavy-duty shotgun designed for close-quarters combat and breaching operations."
+    }
   ]
 }
