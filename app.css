@@ -1,8 +1,5 @@
-.name-li {
-    max-width: 170px;
-}
 
-.highlight-effect {
+  .highlight-effect {
     max-width: 170px;
     background-color: red;
     color: white;
@@ -12,6 +9,25 @@
   }
   
   .highlight-effect:hover {
+    cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  } 
+
+  .leftSide, .rightSide {
+    width: 45%; /* Adjust width as needed */
+  }
+
+  .containerWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leftSide ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .leftSide li {
+    margin-bottom: 10px; /* Add margin between list items */
   }
