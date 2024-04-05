@@ -1,7 +1,14 @@
-const weaponCardContainer = document.getElementById("weapon-card-container")
-let weaponCard
+document.addEventListener("DOMContentLoaded", () => {
+    init()
+})
 
-const init = () => {
+const weaponsInStash = []
+
+ const init = () => {
+    fetchWeapons()
+ }
+
+const fetchWeapons = () => {
     fetch("http://localhost:3000/weapons")
         .then(resp => resp.json())
         .then(weapons => renderWeaponsList(weapons))
@@ -30,8 +37,10 @@ const renderWeaponsList = (weapons) => {
 }
 
 const renderWeaponCard = (weapon) => {
+    const weaponCardContainer = document.getElementById("weapon-card-container")
+
     // build weapon card to display details on right hand side of screen
-    weaponCard = document.createElement("div")
+    const weaponCard = document.createElement("div")
     weaponCard.classList.add("weapon-card")
 
     const title = document.createElement("h2")
@@ -58,10 +67,35 @@ const renderWeaponCard = (weapon) => {
     description.textContent = weapon.description
     weaponCard.appendChild(description)
 
+    // add a button "pickup weapon" to bottom of card details
+    const pickUpBtn = document.createElement('button')
+    pickUpBtn.innerText = "Pick Up Weapon"
+    weaponCard.appendChild(pickUpBtn)
+
+    // when button is clicked, add the button to my stash
+    pickUpBtn.addEventListener("click", () => {
+        addWeaponToStash(weapon)
+    })
+
     weaponCardContainer.innerHTML = ""
     weaponCardContainer.appendChild(weaponCard)
+
+    const emptyStash = document.createElement('button')
+    emptyStash.innerText = "Empty Stash!"
+    weaponCard.appendChild(emptyStash)
+
+    emptyStash.addEventListener('click', () => {
+        weaponsInStash.splice(0)
+        console.log("Check out your secret Stash: ", weaponsInStash)
+    })
 }
 
-
-
-init()
+const addWeaponToStash = (weapon) => {
+    weaponsInStash.push(weapon)
+    if (weaponsInStash.length === 0) {
+        console.log("No weapons on stash yet!")
+    } else {
+        console.log("Check out your secret Stash: ", weaponsInStash)
+    }
+     
+}
