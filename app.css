@@ -1,33 +1,57 @@
+body {
+  background-image: url('https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/1920x1080/dcca53eddc247c102bc5feb0c1c01cab88fb844a.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  font-family: Arial, sans-serif; /* Ensure text remains legible */
+}
 
-  .highlight-effect {
-    max-width: 170px;
-    background-color: red;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  
-  .highlight-effect:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  } 
+.containerWrapper {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.6); /* Adds semi-transparent background */
+  padding: 20px; /* Adds padding for breathing room */
+  border-radius: 10px; /* Rounded edges for style */
+}
 
-  .leftSide, .rightSide {
-    width: 45%; /* Adjust width as needed */
-  }
+#title {
+  text-align: center; /* Horizontally centers the text */
+  top: 0; /* Positions the title at the top */
+  left: 50%; /* Shifts the element horizontally */
+  margin: 20px 0; /* Adds space at the top */
+  width: 100%; /* Ensures the title stretches across the screen */
+  color: white; /* Adjust text color if needed */
+}
 
-  .containerWrapper {
-    display: flex;
-    justify-content: space-between;
-  }
+.leftSide, .rightSide {
+  width: 45%; /* Adjust width as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for content */
+  padding: 15px; /* Add padding */
+  border-radius: 5px; /* Rounding content containers */
+}
 
-  .leftSide ul {
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
-  
-  .leftSide li {
-    margin-bottom: 10px; /* Add margin between list items */
-  }
+.highlight-effect {
+  max-width: 170px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.highlight-effect:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.leftSide ul {
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.leftSide li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
