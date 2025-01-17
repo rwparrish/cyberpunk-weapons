@@ -4,30 +4,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const weaponsInStash = []
 
+const emptyArray = []
+
  const init = () => {
     fetchWeapons()
  }
 
 const fetchWeapons = () => {
     fetch("http://localhost:3000/weapons")
+
         .then(resp => resp.json())
-        .then(weapons => renderWeaponsList(weapons))
+        .then(weapons => {
+            console.log(weapons) 
+            renderWeaponsList(weapons)
+        }) 
 }
 
 const renderWeaponsList = (weapons) => {
     const weaponsListContainer = document.getElementById('weapons-list')
     weapons.forEach(weapon => {
+        // Create elements
         const weaponLi = document.createElement('li')
         const weaponNameSpan = document.createElement('span')
+        
+        // Add classes and attributes
         weaponNameSpan.classList.add('weaponSpan')
         weaponLi.classList.add('weapon-li')
         weaponNameSpan.innerText = weapon.name
         weaponLi.id = weapon.id
+        
+        // Build DOM structure
         weaponLi.append(weaponNameSpan)
         weaponsListContainer.append(weaponLi)
 
+        // Add event listeners
         weaponNameSpan.addEventListener('mouseover', () => {
-            weaponNameSpan.classList = 'highlight-effect'
+            weaponNameSpan.classList.add('highlight-effect')
         })
         weaponNameSpan.addEventListener('mouseleave', () => {
             weaponNameSpan.classList.remove('highlight-effect')
